@@ -28,7 +28,7 @@ const DUMMY_EXPENSES = [
   },
 ];
 
-function App() {
+export default function  App ()  {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
   const addNewExpense = (expense) => {
@@ -59,5 +59,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
